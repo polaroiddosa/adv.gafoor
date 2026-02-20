@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { getImagePath } from "@/lib/utils";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 
 export default function AboutSection() {
@@ -43,7 +44,7 @@ export default function AboutSection() {
                     <div className="lg:w-1/2 relative mt-12 lg:mt-0">
                         <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                             <Image
-                                src="/images/hug.jpg"
+                                src={getImagePath("/images/hug.jpg")}
                                 alt="Adv. Gafoor Speaking"
                                 width={800}
                                 height={600}

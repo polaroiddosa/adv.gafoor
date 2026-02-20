@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { getImagePath } from "@/lib/utils";
 import { BookOpen, Hammer, HeartPulse, Building2, Leaf, Users, Lightbulb, Zap } from "lucide-react";
 
 export default function VisionPage() {
@@ -101,7 +102,7 @@ export default function VisionPage() {
                             {/* Background Image Overlay */}
                             {item.image && (
                                 <div className="absolute inset-0 z-0 opacity-20 group-hover:opacity-30 transition-opacity">
-                                    <Image src={item.image} alt={item.title} fill className="object-cover" />
+                                    <Image src={getImagePath(item.image)} alt={item.title} fill className="object-cover" />
                                 </div>
                             )}
 

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { getImagePath } from "@/lib/utils";
 
 export default function Hero() {
     return (
@@ -8,7 +9,7 @@ export default function Hero() {
             {/* Background Image with increased visibility */}
             <div className="absolute inset-0 z-0 opacity-40">
                 <Image
-                    src="/images/hero%20bg.jpg"
+                    src={getImagePath("/images/hero%20bg.jpg")}
                     alt="Background"
                     fill
                     className="object-cover object-center mix-blend-luminosity"
@@ -71,7 +72,7 @@ export default function Hero() {
                     <div className="relative h-[500px] lg:h-[800px] w-full order-1 lg:order-2">
                         <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10">
                             <Image
-                                src="/hero-portrait-v2.png"
+                                src={getImagePath("/hero-portrait-v2.png")}
                                 alt="Leader of the People"
                                 fill
                                 className="object-cover object-top"

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { getImagePath } from "@/lib/utils";
 import { ArrowUpRight, TrendingUp } from "lucide-react";
 
 export default function UpdatesPage() {
@@ -69,7 +70,7 @@ export default function UpdatesPage() {
                         >
                             {item.image && (
                                 <div className="absolute inset-0 z-0">
-                                    <Image src={item.image} alt={item.title} fill className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-50" />
+                                    <Image src={getImagePath(item.image)} alt={item.title} fill className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-50" />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
                                 </div>
                             )}
