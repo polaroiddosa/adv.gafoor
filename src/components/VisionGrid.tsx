@@ -2,6 +2,7 @@
 
 import { BookOpen, Hammer, HeartPulse, Building2, Leaf, Users } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function VisionGrid({ limit }: { limit?: number }) {
     const visions = [
@@ -76,10 +77,11 @@ export default function VisionGrid({ limit }: { limit?: number }) {
                             {/* Optional Background Image */}
                             {vision.image && (
                                 <div className="absolute inset-0 z-0">
-                                    <img 
+                                    <Image 
                                         src={vision.image} 
                                         alt={vision.title} 
-                                        className="w-full h-full object-cover opacity-50 group-hover:opacity-60 transition-opacity duration-500" 
+                                        fill
+                                        className="object-cover opacity-50 group-hover:opacity-60 transition-opacity duration-500" 
                                     />
                                     <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors duration-500" />
                                 </div>

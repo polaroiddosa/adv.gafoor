@@ -52,10 +52,10 @@ export default function AboutPage() {
                             <span className="font-bold text-gray-900">Adv. V. E. Abdul Gafoor</span> represents the modern face of the Indian Union Muslim League (IUML). Born as the eldest son of veteran minister V. K. Ebrahim Kunju, he inherited a legacy of public service but carved his own identity through merit and hard work.
                         </p>
                         <p>
-                            His professional journey began in the corridors of the Kerala High Court. As a Government Pleader for nearly a decade, he honed his understanding of civic laws and governance. This legal backbone makes him a formidable advocate for the people's rights.
+                            His professional journey began in the corridors of the Kerala High Court. As a Government Pleader for nearly a decade, he honed his understanding of civic laws and governance. This legal backbone makes him a formidable advocate for the people&apos;s rights.
                         </p>
                         <p>
-                            Despite a competitive political landscape, his electoral debut in 2021 proved his mass appeal. Polling over 60,000 votes in Kalamassery wasn't just a statistic; it was a testament to his connection with the grassroots. Today, as the General Secretary of Ernakulam District, he continues to steer the party with a vision that blends traditional values with progressive development.
+                            Despite a competitive political landscape, his electoral debut in 2021 proved his mass appeal. Polling over 60,000 votes in Kalamassery wasn&apos;t just a statistic; it was a testament to his connection with the grassroots. Today, as the General Secretary of Ernakulam District, he continues to steer the party with a vision that blends traditional values with progressive development.
                         </p>
                     </div>
 

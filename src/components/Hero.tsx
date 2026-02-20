@@ -81,7 +81,7 @@ export default function Hero() {
 
                         {/* Floating Card - Hidden on very small screens if needed, but keeping for now */}
                         <div className="absolute bottom-8 left-0 lg:bottom-12 lg:-left-12 bg-white p-6 rounded-xl shadow-xl max-w-xs border-l-4 border-accent animate-fade-in-up delay-300 hidden sm:block">
-                            <p className="font-serif text-lg italic text-gray-800">"My father's standing in the Muslim League provided an entry, but my dedication is what sustains me."</p>
+                            <p className="font-serif text-lg italic text-gray-800">&quot;My father&apos;s standing in the Muslim League provided an entry, but my dedication is what sustains me.&quot;</p>
                             <p className="text-sm font-bold text-primary mt-4">- Adv. Gafoor</p>
                         </div>
                     </div>

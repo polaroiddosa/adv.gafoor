@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 
 export default function AboutSection() {
@@ -41,16 +42,18 @@ export default function AboutSection() {
                     {/* Right Content - Visual/Timeline or Image */}
                     <div className="lg:w-1/2 relative mt-12 lg:mt-0">
                         <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                            <img
+                            <Image
                                 src="/images/hug.jpg"
                                 alt="Adv. Gafoor Speaking"
+                                width={800}
+                                height={600}
                                 className="w-full h-auto object-cover"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                             <div className="absolute bottom-0 left-0 p-8 text-white">
                                 <h3 className="text-2xl font-serif font-bold mb-2">A Voice for the People</h3>
                                 <p className="text-white/80 mb-4">
-                                    "My father's standing in the Muslim League provided an entry, but my dedication is what sustains me."
+                                    &quot;My father&apos;s standing in the Muslim League provided an entry, but my dedication is what sustains me.&quot;
                                 </p>
                             </div>
                         </div>

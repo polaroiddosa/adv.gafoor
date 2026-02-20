@@ -1,0 +1,31 @@
+
+> gafoor-portfolio@0.1.0 lint
+> eslint
+
+
+C:\PolaroidDosa\Gafoor\src\app\about\page.tsx
+  55:271  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  58:169  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\PolaroidDosa\Gafoor\src\app\updates\page.tsx
+  8:17  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\PolaroidDosa\Gafoor\src\app\vision\page.tsx
+  114:93   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  114:108  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\PolaroidDosa\Gafoor\src\components\AboutSection.tsx
+  56:37   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  56:47   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  56:137  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\PolaroidDosa\Gafoor\src\components\Hero.tsx
+  84:84   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  84:94   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  84:184  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\PolaroidDosa\Gafoor\tailwind.config.ts
+  34:15  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+Γ£û 12 problems (12 errors, 0 warnings)
+

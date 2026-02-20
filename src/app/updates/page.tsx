@@ -1,10 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { ArrowUpRight, TrendingUp } from "lucide-react";
 
 export default function UpdatesPage() {
-    const news: any[] = [
+    const news: { tag: string; title: string; date: string; image?: string; size: string; excerpt: string; color?: string; textColor?: string; }[] = [
         {
             tag: "Leadership",
             title: "Appointed Ernakulam District General Secretary",
@@ -68,7 +69,7 @@ export default function UpdatesPage() {
                         >
                             {item.image && (
                                 <div className="absolute inset-0 z-0">
-                                    <img src={item.image} alt={item.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-50" />
+                                    <Image src={item.image} alt={item.title} fill className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-50" />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
                                 </div>
                             )}
